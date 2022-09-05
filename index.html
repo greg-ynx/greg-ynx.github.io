@@ -2,382 +2,246 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PLOYART Gregory Online Resume</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Greg-ynx's portfolio</title>
 </head>
 <body>
-    <div id="Title">
-            <h1>
-                <img src="images/me.png" alt="me">
-                My Online Resume : Grégory Ployart
-            </h1>
+    <div id="TitleDiv">
+        <div style="display:flex;justify-content:center;align-items:center;">
+            <div style="margin-right:5px;">
+                <h1>Greg-ynx's Portfolio</h1>
+            </div>
+            <div style="margin-right:5px;">
+                <a href="https://www.linkedin.com/in/gr%C3%A9gory-ployart/" title="Gregory Ployart's LinkedIn page" target="_blank">
+                    <img src="src/assets/img/linkedin_dm.png" alt="Gregory Ployart's LinkedIn page" width="32" height="32"/>
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/greg-ynx" title="Greg-ynx's Github profile" target="_blank">
+                    <img src="src/assets/img/github_dm.png" alt="Greg-ynx's Github profile" width="32" height="32"/>
+                </a>
+            </div>
+        </div>
+        <hr style="clear:both;">
+        <div style="display:flex;justify-content:center;align-items:center;margin-bottom:100px;">
+            <div class="barItem">
+                <a href="#AboutMeDiv">
+                    <p>About me</p>
+                </a>
+            </div>
+            <div class="barItem">
+                <a href="#SkillsDiv">
+                    <p>Skills</p>
+                </a>
+            </div>
+            <div class="barItem">
+                <a href="#ExperienceDiv">
+                    <p>Experience</p>
+                </a>
+            </div>
+            <div class="barItem">
+                <a href="#ResumeDiv">
+                    <p>Resume</p>
+                </a>
+            </div>
+            <div class="barItem">
+                <a href="#WorkDiv">
+                    <p>Work</p>
+                </a>
+            </div>
+            <div class="barItem">
+                <a href="#ContactDiv">
+                    <p>Contact</p>
+                </a>
+            </div>
+        </div>
     </div>
-    <div id="Contacts">
-        <b>Contacts :
-            &nbsp;&nbsp;&nbsp;
-            <a href="mailto:gregory.ployart@viacesi.fr" target="_blank">
-                <img src="images/mail-icon.png" alt="MailLogo" width="32" height="32">
-            </a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/gr%C3%A9gory-ployart/" target="_blank">
-                <img src="images/Linkedin-icon.png" alt="LinkedInLogo" width="32" height="32">
-            </a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/lyl-Lynx" target="_blank">
-                <img src="images/github-icon.png" alt="githubLogo" width="32" height="32">
-            </a>
-        </b>
-        <p>E-mail : <a href="mailto:gregory.ployart@viacesi.fr" target="_blank">gregory.ployart@viacesi.fr</a> </p>
-        <p>LinkedIn : <a href="https://www.linkedin.com/in/gr%C3%A9gory-ployart/" target="_blank">linkedin.com/in/grégory-ployart</a> </p>
-        <p>GitHub : <a href="https://github.com/lyl-Lynx" target="_blank">github.com/lyl-Lynx</a> </p>
+    <div id="AboutMeDiv" style="margin-left:2rem;margin-bottom:100px;">
+        <h2 class="my-title">About me</h2>
+        <hr class="my-title">
+        <div style="height:75%;display:flex;justify-content:left;align-items:center; background-color:#2D2D2D;border-radius:16px;
+        margin-right: 2rem;">
+            <div style="width:80%;height:100%;">
+                <p style="margin-left:10px;margin-right:10px;text-align:center">
+                    Hi! My name is Gregory "Greg-ynx" Ployart, and I am a software developer whose skills are based on
+                    script programming, game programming, web/mobile development and software development. I am currently a
+                    fifth year student at CESI engineering school pursuing an engineering degree in IT with a minor in
+                    management and VR development. I aspire to learn more thanks to the professional experience offered by
+                    freelance missions.
+                    <br><br>Check my portfolio and do not forget to email me to carry out your projects!
+                </p>
+            </div>
+            <img src="src/assets/img/greg_photo.jpg" alt="Greg-ynx profile picture" style="width:20%;height:100%;
+            border-radius:0 16px 16px 0;"/>
+        </div>
+        <hr class="transition" style="clear:both;">
     </div>
-    <div id="Summary">
-        <h2>Summary</h2>
-        <ol>
-            <li>
-                <strong>
-                    <a href="#Who I am">Who I am</a>
-                </strong>
-            </li>
-            <li>
-                <strong>
-                    <a href="#What I wanna be">What I want to be</a>
-                </strong>
-            </li>
-            <li>
-                <strong>
-                    <a href="#Education">Education</a>
-                </strong>
-            </li>
-            <li>
-                <strong>
-                    <a href="#Professional Experiences">Professional Experiences</a>
-                </strong>
-            </li>
-            <li>
-                <strong>
-                    <a href="#Certifications">Certifications</a>
-                </strong>
-            </li>
-            <li>
-                <strong>
-                    <a href="#Skills">Skills</a>
-                </strong>
-            </li>
-        </ol>
+    <div id="SkillsDiv" style="margin-left:2rem;margin-bottom:100px;">
+        <h2 class="my-title">Skills</h2>
+        <hr class="my-title">
+        <div style="margin-bottom:50px;">
+            <h3 style="margin-bottom:50px;">Development</h3>
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <img class="skillsIcon" src="src/assets/img/cs.png" alt="C# icon"/>
+                <img class="skillsIcon" src="src/assets/img/python.png" alt="Python icon"/>
+                <img class="skillsIcon" src="src/assets/img/java.png" alt="Java icon"/>
+                <img class="skillsIcon" src="src/assets/img/js.png" alt="JavaScript icon"/>
+                <img class="skillsIcon" src="src/assets/img/html-5.png" alt="HTML icon"/>
+                <img class="skillsIcon" src="src/assets/img/css-3.png" alt="CSS icon"/>
+            </div>
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <img class="skillsIcon" src="src/assets/img/microsoft-dotnet.png" alt=".NET icon"/>
+            <img class="skillsIcon" src="src/assets/img/Qt.png" alt="Qt icon"/>
+            <img class="skillsIcon" src="src/assets/img/processing.png" alt="Processing icon"/>
+            <img class="skillsIcon" src="src/assets/img/ts.png" alt="TypeScript icon"/>
+            <img class="skillsIcon" src="src/assets/img/expressjs.png" alt="ExpressJS icon"/>
+            <img class="skillsIcon" src="src/assets/img/sass.png" alt="SASS icon"/>
+            </div>
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <img class="skillsIcon" src="src/assets/img/react.png" alt="React icon"/>
+                <img class="skillsIcon" src="src/assets/img/angular.png" alt="Angular icon"/>
+                <img class="skillsIcon" src="src/assets/img/vuejs.png" alt="VueJS icon"/>
+                <img class="skillsIcon" src="src/assets/img/ionic.png" alt="Ionic icon"/>
+                <img class="skillsIcon" src="src/assets/img/node-js.png" alt="NodeJS icon"/>
+                <img class="skillsIcon" src="src/assets/img/spring.png" alt="SASS icon"/>
+            </div>
+        </div>
+        <div style="margin-bottom:50px;">
+            <h3 style="margin-bottom:50px;">Design</h3>
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <img class="skillsIcon" src="src/assets/img/figma.png" alt="Figma icon"/>
+                <img class="skillsIcon" src="src/assets/img/adobe-illustrator.png" alt="Adobe illustrator icon"/>
+                <img class="skillsIcon" src="src/assets/img/blender.png" alt="Blender icon"/>
+                <img class="skillsIcon" src="src/assets/img/paint-net.png" alt="Paint.NET icon"/>
+            </div>
+        </div>
+        <div style="margin-bottom:50px;">
+            <h3 style="margin-bottom:50px;">Tools</h3>
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <img class="skillsIcon" src="src/assets/img/jetbrains.png" alt="JetBrains icon"/>
+                <img class="skillsIcon" src="src/assets/img/visual-studio-code.png" alt="Visual studio code icon"/>
+                <img class="skillsIcon" src="src/assets/img/git.png" alt="Git icon"/>
+                <img class="skillsIcon" src="src/assets/img/docker.png" alt="Docker icon"/>
+                <img class="skillsIcon" src="src/assets/img/notion.png" alt="Notion icon"/>
+                <img class="skillsIcon" src="src/assets/img/postman.png" alt="Postman icon"/>
+            </div>
+        </div>
     </div>
-    <div id="Who I am">
-        <h2>Who I am</h2>
-        <p>
-            Hello world! My name is Grégory, I am a French IT engineering student at CESI Bordeaux Engineering school.
-            I am currently in the fourth year of my course, and I expect to join the software dominant course.
-            My first experience with IT was some Arduino project that is available on my GitHub page.
-            I have really enjoyed this experience, so I wanted to keep going with programing.
-            Currently, I am still working on different projects in order to get experiences and know in which IT
-            department I want to work.
+    <div id="ExperienceDiv" style="margin-left:2rem;margin-right:2rem;margin-bottom:100px;">
+        <h2 class="my-title">Experience</h2>
+        <hr class="my-title">
+        <div style="display:flex;justify-content:center;align-items:center;">
+            <div>
+                <div class="xpDiv">
+                    <p style="font-size:32px;">2020 - Currently</p>
+                    <h3>CESI engineering school</h3>
+                    <h4>I.T. engineering diploma</h4>
+                    <img class="xpPin" src="src/assets/img/Group%203Education_logo.png" alt="Education pin" style="margin:25px auto 25px auto;"/>
+                    <p style="text-align:center;">
+                        The CESI engineer in IT specialty is constantly on standby to evolve.
+                        <br>It is open to corporate jobs and extra-technical skills.
+                        <br>He has integration skills, platform skills, heterogeneity management and interoperability skills.
+                        <br>It has an «Information System» vision and develops with quality and production methods.
+                        <br>In addition, he has project management skills, teamwork, and is a communicator and seller of his solutions.
+                    </p>
+                </div>
+                <div class="xpDiv">
+                    <p style="font-size:32px;">JAN - APR 2021</p>
+                    <h3>Python developer</h3>
+                    <h4>for 3DiTex (Internship)</h4>
+                    <img class="xpPin" src="src/assets/img/Job_logo.png" alt="Education pin" style="margin:25px auto 25px auto;"/>
+                    <p style="text-align:center;">
+                        Development of desktop apps and a control system for computer-aided design machine using
+                        <br>Python, Qt framework and Excel.
+                    </p>
+                </div>
+                <div class="xpDiv">
+                    <p style="font-size:32px;">SEPTEMBER 2021</p>
+                    <h3>Assistant tutor</h3>
+                    <h4>for CESI engineering school</h4>
+                    <img class="xpPin" src="src/assets/img/Job_logo.png" alt="Education pin" style="margin:25px auto 25px auto;"/>
+                    <p style="text-align:center;">
+                        Supervision of third-year students.
+                    </p>
+                </div>
+                <div class="xpDiv">
+                    <p style="font-size:32px;">SEPT 2021 - JAN 2022</p>
+                    <h3>Full-stack developper</h3>
+                    <h4>for International Bank of Mauritania (Internship)</h4>
+                    <img class="xpPin" src="src/assets/img/Job_logo.png" alt="Education pin" style="margin:25px auto 25px auto;"/>
+                    <p style="text-align:center;">
+                        Development of desktop software as well as a payroll management application.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ResumeDiv" style="margin-left:2rem;margin-right:2rem;margin-bottom:100px;">
+        <h2 class="my-title">Resume</h2>
+        <hr class="my-title">
+        <p style="text-align:center;">Check out my resume!</p>
+        <div style="display:flex;justify-content:center;align-items:center;">
+            <a href="#" style="text-decoration:none">
+                <div style="width:200px;height:auto;border:5px solid #E1E1E1;border-radius:10px">
+                    <p style="text-align:center;">Click here!</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="WorkDiv" style="margin-left:2rem;margin-right:2rem;margin-bottom:100px;">
+        <h2 class="my-title">Work</h2>
+        <hr class="my-title">
+        <p style="text-align:center;font-size:20px;">Some of my work (including this portfolio)</p>
+        <div class="grid-container">
+            <a href="https://github.com/greg-ynx/Auto_clicker_py" title="Auto_clicker_py repository" target="_blank" style="text-decoration:none;">
+                <div class="work-preview" style="background-image:url(src/assets/preview/auto_clicker_py.png)"></div>
+            </a>
+            <a href="https://github.com/veat-cesi/user-account-management" title="Veat UAM repository" target="_blank" style="text-decoration:none;">
+                <div class="work-preview" style="background-image:url(src/assets/preview/veat-uam.png)"></div>
+            </a>
+            <a href="https://github.com/greg-ynx/Pattern-Builder" title="Pattern Builder repository" target="_blank" style="text-decoration:none;">
+                <div class="work-preview" style="background-image:url(src/assets/preview/pattern-builder.png)"></div>
+            </a>
+        </div>
+        <div style="display:flex;justify-content:center;align-items:center">
+            <div style="text-align:center;">
+                <p style="font-size:20px;">See more projects ?</p>
+                <a href="https://github.com/greg-ynx" title="Greg-ynx's Github profile" target="_blank" style="text-decoration:none;">
+                    <img src="src/assets/img/github_dm.png" alt="Greg-ynx's Github profile" style="width:128px;height:128px;"/>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="ContactDiv" style="margin-left:2rem;margin-right:2rem;margin-bottom:100px;">
+        <h2 style="text-align:center;">GET IN TOUCH!</h2>
+        <p style="text-align:center;">
+            You have a project I can be part of
+            <br>or you need help with any of my released work
+            <br>Feel free to send me an email!
         </p>
+        <div style="display:flex;justify-content:center;align-items:center;">
+            <a href="mailto:greg.ynx@gmail.com" style="text-decoration:none">
+                <div style="width:200px;height:auto;border:5px solid #E1E1E1;border-radius:10px">
+                    <p style="text-align:center;">Send an email</p>
+                </div>
+            </a>
+        </div>
     </div>
-    <div id="What I wanna be">
-        <h2>What I want to be</h2>
-        <p>
-            A SOFTWARE ENGINEER ! That is what I first wanted to be. In 5 years, I would like to have enough knowledge
-            to be able to work as a Fullstack developer, a software desktop, mobile and web developer,
-            an AR/VR developer and maybe even a game developer !
-            As you can see with what I have just written, I am a versatile individual, and that is true,
-            I like versatility, and I want it to be my main strength during my career.
-        </p>
-    </div>
-    <div id="Education">
-        <h2>Education</h2>
-        <table>
-            <tr>
-                <td>
-                    <hr>
-                    <p></p>
-                    <strong>IT engineering degree</strong>
-                </td>
-                <td>
-                    <p></p>
-                    2020 – in progress
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <i>CESI Bordeaux engineering school, Bordeaux, France</i>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p></p>
-                    Master equivalent in IT engineering with engineering certification from CTI<br>
-                    Course focus on System administration, System programming, Data sciences, AI & Robotic, Innovations
-                    and R&D
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <hr>
-                    <p></p>
-                    <strong>CPGE Technology and Industrial Sciences</strong>
-                </td>
-                <td>
-                    <p></p>
-                    2018 – 2020
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <i>Georges Cabanis high school, Brive-la-Gaillarde, France</i>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p></p>
-                    CPGE are advanced courses that prepares you for the entrance exams of engineering schools.<br>
-                    Technology and Industrial Sciences CPGE is focused on global engineering sciences<br>
-                    (Physics, Mechanical, Electricity, Electronics) but also advanced maths, chemistry and programming
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <hr>
-                    <p></p>
-                    <strong>BAC Sciences and Technology of Industry and Sustainable Development</strong>
-                </td>
-                <td>
-                    <p></p>
-                    2018
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <i>Pape Clément high school, Pessac, France</i>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p></p>
-                    Technology baccalaureate (High school diploma)
-                    <hr>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div id="Professional Experiences">
-        <h2>Professional Experiences</h2>
-        <table>
-            <tr>
-                <td>
-                    <hr>
-                    <p></p>
-                    <strong>IT Developer Intern</strong>
-                </td>
-                <td>
-                    <p></p>
-                    09/2021 - 02/2021
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <i>International Bank of Mauritania, Nouakchott, Mauritania</i>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p></p>
-                    Internship subject : Leave and absence management software<br>
-                    Learned about software, web and mobile development with : <br>
-                    Java swing, Angular CLI, TS, HTML5, CSS
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <hr>
-                    <p></p>
-                    <strong>Software Developer Intern</strong>
-                </td>
-                <td>
-                    <p></p>
-                    01/2021 - 04/2021
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <i>3DiTEX, Saint-Médard-en-Jalles, France</i>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p></p>
-                    Internship subject : Developed a control program and its user interface<br>
-                    Learned about Oriented-Object Programming, graphic interfaces, exportation to excel files<br>
-                    Tools used : Python, Qt, Excel, mathematics
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <hr>
-                    <p></p>
-                    <strong>Assistant tutor</strong>
-                </td>
-                <td>
-                    <p></p>
-                    09/2021
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <i>CESI Bordeaux Engineering school, Bordeaux, France</i>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p></p>
-                    Assist teacher tutor for 3rd year students integration<br>
-                    Activity launch, Project Base Learning, programming tips
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <hr>
-                    <p></p>
-                    <strong>Catering employee</strong>
-                </td>
-                <td>
-                    <p></p>
-                    08/2021
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <i>Flunch, Mérignac, France</i>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p></p>
-                    Distribution of hot meals, customer relations, room cleaning
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <hr>
-                    <p></p>
-                    <strong>Store clerk</strong>
-                </td>
-                <td>
-                    <p></p>
-                    07/2018 - 08/2018
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <i>Action, Mérignac, France</i>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p></p>
-                    Customer relationship and cash register sales
-                    <hr>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div id="Certifications">
-        <h2>Certifications</h2>
-        <table>
-            <tr>
-                <td>
-                    <strong>Microsoft Technology Associate</strong>
-                </td>
-                <td>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <ul>
-                        <li>
-                            <a href="https://portal.certiport.com/Portal/Pages/CredentialVerification.aspx" target="_blank">
-                                Software Development Fundamentals – verify.certiport.com wnR9p-4Smb
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://portal.certiport.com/Portal/Pages/CredentialVerification.aspx" target="_blank">
-                                Introduction to Programming using Python – verify.certiport.com wNDmo-2FwT
-                            </a>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div id="Skills">
-        <h2>Skills</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Soft Skills</th>
-                    <th>Technical skills</th>
-                    <th>Languages</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Creative</td>
-                    <td>Python</td>
-                    <td>French - Native</td>
-                </tr>
-                <tr>
-                    <td>Versatile</td>
-                    <td>C#</td>
-                    <td>English - Fluent (TOEIC score : 807)</td>
-                </tr>
-                <tr>
-                    <td>Independent</td>
-                    <td>Java</td>
-                </tr>
-                <tr>
-                    <td>Organized</td>
-                    <td>TS</td>
-                </tr>
-                <tr>
-                    <td>Team spirit</td>
-                    <td>SQL</td>
-                </tr>
-                <tr>
-                    <td>Perfectionist</td>
-                    <td>HTML</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>CSS</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Software development</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Fullstack development</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Data processing</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Versioning</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Engineering sciences</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Others : C, C++, Arduino, JS, Git, SysML, UML</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <footer style="display:flex;justify-content:center;align-items:center;background-color:#1E1E1E;position:absolute;left:0;right:0;height:250px">
+        <div>
+            <div style="text-align:center;">
+                <a href="https://www.linkedin.com/in/gr%C3%A9gory-ployart/" title="Gregory Ployart's LinkedIn page" target="_blank" style="margin-right:10px;text-decoration:none;">
+                    <img src="src/assets/img/linkedin_dm.png" alt="Gregory Ployart's LinkedIn page" style="width:64px;height:64px;"/>
+                </a>
+                <a href="https://github.com/greg-ynx" title="Greg-ynx's Github profile" target="_blank" style="text-decoration:none;">
+                    <img src="src/assets/img/github_dm.png" alt="Greg-ynx's Github profile" style="width:64px;height:64px;"/>
+                </a>
+            </div>
+            <p style="text-align:center;">greg-ynx/portfolio-v1 2022</p>
+            <a href="" title="Back to the top" style="text-decoration:none;text-align:center;">
+                <p>Back to the top!</p>
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
