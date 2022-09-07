@@ -1,0 +1,61 @@
+.resume {
+    border: 1px solid black;
+}
+
+p, h2, h3 {
+    font-family: Verdana, sans-serif;
+}
+
+.main-grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#sideItem {
+    background-color: #244394;
+}
+
+#sideItem p, #sideItem h2, #sideItem h3 {
+    padding-left: 15px;
+    color: #E1E1E1;
+}
+
+#identityItem {
+    background-color: #1E1E1E;
+}
+
+p.identity-content {
+    font-size: 18px;
+}
+
+#PersonalInfoSection, #SkillsSection, #SoftwareEngineeringSection, #LanguagesSection {
+    margin-bottom: 2rem;
+}
+
+.informationItem-title {
+    margin-bottom: 2rem;
+    background-color: #172A5D;
+}
+
+.main-item-title h2, .main-item-content, #IntroductionSection {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.main-item-title {
+    color: #244394;
+}
+
+.main-item-content {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 25px;
+}
+
+.content-info-description, #IntroductionSection {
+    text-align: justify;
+}
+
+.acquired-skills {
+    color: #244394;
+}
